@@ -30,6 +30,8 @@ group :test do
   gem 'minitest', '5.4.2'
   gem 'guard-rspec', '2.5.0'
   gem 'factory_girl_rails', '4.2.0'
+  gem 'cucumber-rails', '1.4.2', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :production do
